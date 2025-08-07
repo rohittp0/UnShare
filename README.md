@@ -31,8 +31,10 @@ storage. Apps often hide or limit where files are saved. **UnShare** fixes that 
 
 ## 📂 Installation
 
+You can get the prebuilt apk from the [Releases](https://github.com/rohittp0/UnShare/releases) or build yourself locally. 
+
 ```bash
-git clone https://github.com/your-username/unshare.git
+git clone https://github.com/rohittp0/unshare.git
 cd unshare
 flutter pub get
 flutter run
