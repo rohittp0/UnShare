@@ -38,13 +38,19 @@ dependencies:
   external_path: ^2.2.0
   flutter_launcher_icons: ^0.14.4
 
-flutter_icons:
-  android: true
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/icon.png"
+  adaptive_icon_monochrome: "assets/icon/icon.png"
+  adaptive_icon_foreground_inset: 24
+
   ios: true
-  image_path: "assets/icons/app_icon.png"
-  # optional: remove the white background for adaptive icons
-  adaptive_icon_background: "#ffffff"
-  adaptive_icon_foreground: "assets/icons/app_icon.png"
+  background_color_ios: "#FFFFFF"
+  remove_alpha_ios: true
 
 dev_dependencies:
   flutter_test:
@@ -64,7 +70,7 @@ dev_dependencies:
 flutter:
 
   # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
+  # included with your application, so that you can use the icon in
   # the material Icons class.
   uses-material-design: true
 
