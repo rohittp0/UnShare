@@ -62,11 +62,14 @@ flutter run
 ## 🤔 FAQ
 
 **Q: Can I customize the save folder?**
+
 A: Not in this version. Files go directly to Downloads (or Documents on iOS).
 
 **Q: Does it support videos, PDFs, images?**
+
 A: Yes. Any file shared through the OS-level share intent.
 
 **Q: Will it overwrite files with the same name?**
+
 A: Yes, it will overwrite files with the same name in the Downloads folder.
 
